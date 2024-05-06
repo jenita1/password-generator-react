@@ -28,7 +28,6 @@ function App() {
     },[length,charAllowed,numberAllowed])
      const copyPassword =()=>{
       window.navigator.clipboard.writeText(password)
-      // passwordRef.current?.select()
       alert('password copied');
       
      }
